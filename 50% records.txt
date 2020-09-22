@@ -1,0 +1,1 @@
+select rownum,e.* from emp e where rownum<=(select count(*)/2 from emp);
